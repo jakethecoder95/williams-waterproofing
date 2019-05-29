@@ -1,0 +1,24 @@
+.carousel {
+  margin-bottom: 4rem;
+
+  .carousel-item {
+    height: 32rem;
+  }
+
+  .first-item {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/423727_328974437149587_1464261233_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=76bc88a7d3a6cfe43a693a16116a0e7c&oe=5D8C0BCE);
+    background-size: cover;
+  }
+  .second-item {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/27331917_1580858178627867_7715934835817216799_n.jpg?_nc_cat=110&_nc_ht=scontent-sea1-1.xx&oh=dd2420420aebd5e97e4b6de0db8c4ee4&oe=5D587C6B);
+    background-size: cover;
+    background-position: center 8%;
+  }
+  .third-item {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49771560_2005051879541826_4136491781690753024_n.jpg?_nc_cat=105&_nc_ht=scontent-sea1-1.xx&oh=8ec05df6a1350312fcc234f98f1d28e0&oe=5D5F7DFA);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+// background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/21432733_1452506554796364_6047609336428040452_n.jpg?_nc_cat=106&_nc_ht=scontent-sea1-1.xx&oh=4ef53f91a7b261709fe6667e4c3793b6&oe=5D5D35B4);

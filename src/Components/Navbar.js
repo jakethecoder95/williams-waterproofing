@@ -62,21 +62,22 @@ const Navbar = props => {
             </div>
           </li>
         </ul>
-        <form className="form-inline my-2 my-lg-0">
+        <div className="form-inline my-2 my-lg-0">
           <a
             className="nav-link mr-sm-2 btn btn-outline-info"
             href="mailto:chs95602@yahoo.com"
+            style={{ marginRight: "5px" }}
           >
             <i className="fa fa-envelope" />
           </a>
           <a
-            className="btn btn-outline-success my-2 my-sm-0"
+            className="nav-link btn btn-outline-success my-2 my-sm-0"
             href="tel:916-698-6081"
           >
             <i className="nav-link p-2 fa fa-phone" />
-            Give us a call!
+            916-698-6081
           </a>
-        </form>
+        </div>
       </div>
     </nav>
   );
