@@ -1,21 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const First = props => {
   return (
     <div className="carousel-item active first-item">
       <div className="container">
         <div className="carousel-caption text-left">
-          <h1>Example headline.</h1>
+          <h1>Honest and Reliable Estimates.</h1>
           <p>
-            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-            id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
-            ultricies vehicula ut id elit.
+            Whether it’s our quick, quality, friendly service or the honesty and
+            value we bring to every interaction, our customers love us.
           </p>
           <p>
-            <Link className="btn btn-lg btn-primary" to="#" role="button">
-              Sign up today
-            </Link>
+            <a
+              className="btn btn-lg btn-primary"
+              href="tel:916-698-6081"
+              role="button"
+            >
+              <i className="nav-link p-2 fa fa-phone" />
+              Get an estimate
+            </a>
           </p>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { Router, Route, Switch } from "react-router-dom";
 
 import history from "../history";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Home from "./Home";
 import PageNotFound from "./Errors/404";
 
@@ -16,6 +17,7 @@ class App extends Component {
           <Route path="/" exact component={Home} />
           <Route component={PageNotFound} />
         </Switch>
+        <Footer />
       </Router>
     );
   }
